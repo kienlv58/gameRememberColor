@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bgr"
+    tools:context="com.example.kien.game_gridview_remembercolor.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        >
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="New Game"
+        android:textSize="30sp"
+        android:background="@drawable/mybutton_style"
+        android:id="@+id/btn_newgame"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="level"
+        android:textSize="30sp"
+        android:background="@drawable/mybutton_style"
+        android:id="@+id/btn_level"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Hight Score"
+        android:textSize="30sp"
+        android:background="@drawable/mybutton_style"
+        android:id="@+id/btn_hightscore"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Exit"
+        android:textSize="30sp"
+        android:background="@drawable/mybutton_style"
+        android:id="@+id/btn_exit"
+        android:layout_marginTop="10dp"
+        />
+    </LinearLayout>
+</LinearLayout>
